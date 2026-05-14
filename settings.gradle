@@ -1,0 +1,5 @@
+rootProject.name = 'demo'
+
+include 'worker'
+include 'core'
+include 'common'
