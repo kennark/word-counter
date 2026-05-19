@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/database
+    url: jdbc:postgresql://postgres:5432/database
     username: postgres
     password: password
 
@@ -23,7 +23,7 @@ spring:
     locations: classpath:db/migration
 
   rabbitmq:
-    host: ${RABBITMQ_HOST:localhost}
+    host: rabbitmq
     port: 5672
     username: ${RABBITMQ_USER:guest}
     password: ${RABBITMQ_PASS:guest}
